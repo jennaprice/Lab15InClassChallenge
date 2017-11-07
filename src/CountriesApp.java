@@ -18,6 +18,7 @@ public class CountriesApp {
 			}
 			choice = Validator.getInt(prompt, 1, 3);
 		}
+		Validator.closeScanner();
 
 		System.out.println("Thank you, bye-bye!!!!");
 
